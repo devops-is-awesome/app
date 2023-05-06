@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`suite name > snapshot 1`] = `
+{
+  "foo": "bar",
+}
+`;
+
+exports[`very complicated tests > very wow 1`] = `
+{
+  "foo": "bar",
+}
+`;
+
+exports[`very complicated, much tests > very wow 1`] = `
+{
+  "foo": "bar",
+}
+`;
