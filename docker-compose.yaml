@@ -12,7 +12,7 @@ services:
     volumes:
       - mongodb_data:/data/db
   app:
-    build: .
+    build: danirdd92/app:v1
     restart: always
     depends_on:
       mongodb:
